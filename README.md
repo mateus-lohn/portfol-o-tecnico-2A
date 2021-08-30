@@ -3,7 +3,8 @@
 - .["Scripts"](portfol-o-tecnico-2A/Fundamentos de ti/Scripts)
 - .["Usuarios"](portfol-o-tecnico-2A/Fundamentos de ti/Usuarios)
 - .["Vetores"](portfol-o-tecnico-2A/Fundamentos de ti/Vetores)
-##Logica computacional
+## Logica computacional
+
 - .["Conceitos vistos if e Scanner"](portfol-o-tecnico-2A/Logica Computacional/Conceitos vistos if e Scanner)
 - .["Estruturas de repetiçao"](portfol-o-tecnico-2A/Logica Computacional/Estruturas de repetiçao)
 - .["Loop"](portfol-o-tecnico-2A/Logica Computacional/Loop)
