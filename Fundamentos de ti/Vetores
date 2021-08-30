@@ -1,0 +1,23 @@
+1)#!bin/bash
+nomes=("Mateus" "Vinícius "Bruno")
+for i in ${nomes[@]}
+do
+echo "Oi, eu sou o $i!"
+done
+
+2)#!/bin/bash
+nomes=("Mateus" "Vinícius "Guilherme")
+while [ $i -lt ${#nomes[@]} ]
+do
+echo "Oi. eu sou ${nomes[$i]}"
+i=$((i+1))
+done
+
+3)#!/bin/bash
+nomes= (“Mateus“ “Vinícius“ “Bruno“)
+i=o
+while [ $i - lt ${nomes[@]} ]
+do
+echo “Oi, eu sou o $i“
+i=$(($i+1))
+done
