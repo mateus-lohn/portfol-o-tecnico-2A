@@ -1,0 +1,15 @@
+#!/bin/bash
+list=$(ls | grep .sh)
+echo $list
+
+#!/bin/bash
+if [  $1 -gt $2 ]
+then
+echo “$1 e maior que $2“
+elif [$2 -gt $1 ]
+then
+echo “$2 e maior que $1“
+elif [  $1 -eq $2 ]
+then
+echo “os numeros se equivalem“
+fi
