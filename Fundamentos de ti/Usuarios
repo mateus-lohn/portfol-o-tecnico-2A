@@ -1,0 +1,19 @@
+1 sudo su
+2 sudo adduser mateus1 mateus 2 mateus 3
+3 sudo adduser mateus1
+4 sudo adduser mateus2
+5 sudo adduser mateus 3
+6 clear
+7 su mateus1 
+8 cd..
+9 ls -1
+10 sudo chmod 777 mateus 1
+11 sudo chmod 777 mateus 2
+12 sudo chmod 777 mateus 3
+13 ls -1
+14 cd
+15 su mateus 1
+16 su mateus 2
+17 su mateus 3
+18 clear
+19 history
