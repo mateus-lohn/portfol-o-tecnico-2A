@@ -2,7 +2,7 @@
 ## Fundamentos de ti
 - .[Scripts](portfol-o-tecnico-2A/Fundamentos de ti/Scripts)
 - .[Usuarios](portfol-o-tecnico-2A/Fundamentos de ti/Usuarios)
--.[Vetores](portfol-o-tecnico-2A/Fundamentos de ti/Vetores)
+- .[Vetores](portfol-o-tecnico-2A/Fundamentos de ti/Vetores)
 ## Logica computacional
 
 - .[Conceitos vistos if e Scanner](portfol-o-tecnico-2A/Logica Computacional/Conceitos vistos if e Scanner)
