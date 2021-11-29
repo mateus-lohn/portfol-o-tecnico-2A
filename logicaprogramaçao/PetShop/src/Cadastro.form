@@ -1,0 +1,313 @@
+<? xml version = " 1.0 " encoding = " UTF-8 " ?>
+
+< Form  version = " 1.3 "  maxVersion = " 1.9 "  type = " org.netbeans.modules.form.forminfo.JFrameFormInfo " >
+  < NonVisualComponents >
+    < Component  class = " javax.swing.JTextField "  name = " jTextField5 " >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel6 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Genero: " />
+      </ Propriedades >
+    </ Componente >
+  </ NonVisualComponents >
+  < Propriedades >
+    < Property  name = " defaultCloseOperation "  type = " int "  value = " 3 " />
+  </ Propriedades >
+  < Propriedades Sintéticas >
+    < SyntheticProperty  name = " formSizePolicy "  type = " int "  value = " 1 " />
+    < SyntheticProperty  name = " generateCenter "  type = " boolean "  value = " false " />
+  </ Propriedades Sintéticas >
+  < AuxValues >
+    < AuxValue  name = " FormSettings_autoResourcing "  type = " java.lang.Integer "  value = " 0 " />
+    < AuxValue  name = " FormSettings_autoSetComponentName "  type = " java.lang.Boolean "  value = " false " />
+    < AuxValue  name = " FormSettings_generateFQN "  type = " java.lang.Boolean "  value = " true " />
+    < AuxValue  name = " FormSettings_generateMnemonicsCode "  type = " java.lang.Boolean "  value = " false " />
+    < AuxValue  name = " FormSettings_i18nAutoMode "  type = " java.lang.Boolean "  value = " false " />
+    < AuxValue  name = " FormSettings_layoutCodeTarget "  type = " java.lang.Integer "  value = " 1 " />
+    < AuxValue  name = " FormSettings_listenerGenerationStyle "  type = " java.lang.Integer "  value = " 0 " />
+    < AuxValue  name = " FormSettings_variablesLocal "  type = " java.lang.Boolean "  value = " false " />
+    < AuxValue  name = " FormSettings_variablesModifier "  type = " java.lang.Integer "  value = " 2 " />
+  </ AuxValues >
+
+  < Layout >
+    < DimensionLayout  dim = " 0 " >
+      < Group  type = " 103 "  groupAlignment = " 0 "  atributos = " 0 " >
+          < Group  type = " 102 "  atributos = " 0 " >
+              < EmptySpace  min = " -2 "  pref = " 19 "  max = " -2 "  atributos = " 0 " />
+              < Group  type = " 103 "  groupAlignment = " 2 "  atributos = " 0 " >
+                  < Component  id = " jLabel10 "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  < Component  id = " jLabel9 "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  < Component  id = " jLabel7 "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  < Component  id = " jLabel4 "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  < Component  id = " jLabel2 "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+              </ Grupo >
+              < Group  type = " 103 "  groupAlignment = " 0 "  atributos = " 0 " >
+                  < Group  type = " 102 "  alinhamento = " 0 "  atributos = " 0 " >
+                      < EmptySpace  min = " -2 "  pref = " 18 "  max = " -2 "  atributos = " 0 " />
+                      < Group  type = " 103 "  groupAlignment = " 2 "  atributos = " 0 " >
+                          < Component  id = " camponome "  alinhamento = " 2 "  max = " 32767 "  atributos = " 0 " />
+                          < Component  id = " campocor "  alinhamento = " 2 "  max = " 32767 "  atributos = " 0 " />
+                          < Component  id = " campoidade "  alinhamento = " 2 "  max = " 32767 "  atributos = " 0 " />
+                      </ Grupo >
+                      < Group  type = " 103 "  groupAlignment = " 0 "  atributos = " 0 " >
+                          < Group  type = " 102 "  atributos = " 0 " >
+                              < EmptySpace  max = " -2 "  atributos = " 0 " />
+                              < Group  type = " 103 "  groupAlignment = " 2 "  atributos = " 0 " >
+                                  < Component  id = " jLabel3 "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                                  < Component  id = " jLabel5 "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                              </ Grupo >
+                              < EmptySpace  type = " separar "  max = " -2 "  atributos = " 0 " />
+                              < Group  type = " 103 "  groupAlignment = " 0 "  atributos = " 0 " >
+                                  < Component  id = " campomatricula "  min = " -2 "  pref = " 84 "  max = " -2 "  atributos = " 0 " />
+                                  < Component  id = " campogenero "  alinhamento = " 0 "  max = " 32767 "  atributos = " 0 " />
+                              </ Grupo >
+                              < EmptySpace  min = " -2 "  pref = " 17 "  max = " -2 "  atributos = " 0 " />
+                          </ Grupo >
+                          < Group  type = " 102 "  alinhamento = " 0 "  atributos = " 0 " >
+                              < EmptySpace  min = " -2 "  pref = " 32 "  max = " -2 "  atributos = " 0 " />
+                              < Component  id = " jLabel8 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                              < EmptySpace  min = " -2 "  pref = " 18 "  max = " -2 "  atributos = " 0 " />
+                              < Component  id = " campopeso "  max = " 32767 "  atributos = " 0 " />
+                              < EmptySpace  max = " -2 "  atributos = " 0 " />
+                          </ Grupo >
+                      </ Grupo >
+                  </ Grupo >
+                  < Group  type = " 102 "  alinhamento = " 0 "  atributos = " 0 " >
+                      < EmptySpace  min = " -2 "  pref = " 11 "  max = " -2 "  atributos = " 0 " />
+                      < Group  type = " 103 "  groupAlignment = " 0 "  atributos = " 0 " >
+                          < Component  id = " camporabo "  max = " 32767 "  atributos = " 0 " />
+                          < Group  type = " 102 "  alinhamento = " 0 "  atributos = " 0 " >
+                              < EmptySpace  min = " -2 "  pref = " 6 "  max = " -2 "  atributos = " 0 " />
+                              < Component  id = " jLabel11 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                              < EmptySpace  max = " -2 "  atributos = " 0 " />
+                              < Component  id = " isfocinheira "  min = " -2 "  pref = " 47 "  max = " -2 "  atributos = " 0 " />
+                              < EmptySpace  type = " unrelated "  max = " -2 "  atributos = " 0 " />
+                              < Component  id = " jLabel12 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                              < EmptySpace  min = " -2 "  pref = " 26 "  max = " -2 "  atributos = " 0 " />
+                              < Component  id = " jLabel13 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                              < EmptySpace  type = " separar "  max = " -2 "  atributos = " 0 " />
+                              < Component  id = " jLabel14 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                              < EmptySpace  max = " -2 "  atributos = " 0 " />
+                              < Group  type = " 103 "  groupAlignment = " 0 "  atributos = " 0 " >
+                                  < Component  id = " jButton3 "  max = " 32767 "  atributos = " 0 " />
+                                  < Group  type = " 102 "  atributos = " 0 " >
+                                      < Component  id = " iscastrado "  min = " -2 "  pref = " 47 "  max = " -2 "  atributos = " 0 " />
+                                      < EmptySpace  type = " unrelated "  max = " -2 "  atributos = " 0 " />
+                                      < Component  id = " jLabel15 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                                      < EmptySpace  min = " 0 "  pref = " 39 "  max = " 32767 "  atributos = " 0 " />
+                                  </ Grupo >
+                              </ Grupo >
+                          </ Grupo >
+                      </ Grupo >
+                      < EmptySpace  max = " -2 "  atributos = " 0 " />
+                  </ Grupo >
+              </ Grupo >
+          </ Grupo >
+          < Group  type = " 102 "  atributos = " 0 " >
+              < Group  type = " 103 "  groupAlignment = " 0 "  atributos = " 0 " >
+                  < Group  type = " 102 "  atributos = " 0 " >
+                      < EmptySpace  min = " -2 "  pref = " 102 "  max = " -2 "  atributos = " 0 " />
+                      < Component  id = " jLabel1 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  </ Grupo >
+                  < Group  type = " 102 "  alinhamento = " 0 "  atributos = " 0 " >
+                      < EmptySpace  min = " -2 "  pref = " 41 "  max = " -2 "  atributos = " 0 " />
+                      < Component  id = " jButton1 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                      < EmptySpace  min = " -2 "  pref = " 81 "  max = " -2 "  atributos = " 0 " />
+                      < Component  id = " jButton2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  </ Grupo >
+              </ Grupo >
+              < EmptySpace  max = " 32767 "  atributos = " 0 " />
+          </ Grupo >
+      </ Grupo >
+    </ DimensionLayout >
+    < DimensionLayout  dim = " 1 " >
+      < Group  type = " 103 "  groupAlignment = " 0 "  atributos = " 0 " >
+          < Group  type = " 102 "  alinhamento = " 0 "  atributos = " 0 " >
+              < EmptySpace  max = " -2 "  atributos = " 0 " />
+              < Group  type = " 103 "  groupAlignment = " 1 "  atributos = " 0 " >
+                  < Group  type = " 103 "  groupAlignment = " 3 "  atributos = " 0 " >
+                      < Component  id = " jLabel10 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                      < Component  id = " jLabel11 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  </ Grupo >
+                  < Group  type = " 102 "  atributos = " 0 " >
+                      < Component  id = " jLabel1 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                      < EmptySpace  max = " -2 "  atributos = " 0 " />
+                      < Group  type = " 103 "  groupAlignment = " 2 "  atributos = " 0 " >
+                          < Component  id = " jLabel2 "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " camponome "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " jLabel3 "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " campomatricula "  alinhamento = " 2 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                      </ Grupo >
+                      < EmptySpace  type = " separar "  max = " -2 "  atributos = " 0 " />
+                      < Group  type = " 103 "  groupAlignment = " 3 "  atributos = " 0 " >
+                          < Component  id = " jLabel4 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " campocor "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " jLabel5 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " campogenero "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                      </ Grupo >
+                      < EmptySpace  type = " unrelated "  max = " -2 "  atributos = " 0 " />
+                      < Group  type = " 103 "  groupAlignment = " 3 "  atributos = " 0 " >
+                          < Component  id = " jLabel7 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " campoidade "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " jLabel8 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " campopeso "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                      </ Grupo >
+                      < EmptySpace  type = " unrelated "  max = " -2 "  atributos = " 0 " />
+                      < Group  type = " 103 "  groupAlignment = " 3 "  atributos = " 0 " >
+                          < Component  id = " jLabel9 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " camporabo "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                      </ Grupo >
+                      < EmptySpace  min = " -2 "  pref = " 28 "  max = " -2 "  atributos = " 0 " />
+                      < Group  type = " 103 "  groupAlignment = " 1 "  atributos = " 0 " >
+                          < Component  id = " isfocinheira "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                          < Component  id = " jLabel12 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                      </ Grupo >
+                  </ Grupo >
+                  < Group  type = " 103 "  alinhamento = " 1 "  groupAlignment = " 3 "  atributos = " 0 " >
+                      < Component  id = " jLabel14 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                      < Component  id = " jLabel13 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  </ Grupo >
+                  < Component  id = " iscastrado "  alinhamento = " 1 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  < Component  id = " jLabel15 "  alinhamento = " 1 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+              </ Grupo >
+              < EmptySpace  pref = " 32 "  max = " 32767 "  atributos = " 0 " />
+              < Group  type = " 103 "  groupAlignment = " 3 "  atributos = " 0 " >
+                  < Component  id = " jButton1 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  < Component  id = " jButton2 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+                  < Component  id = " jButton3 "  alinhamento = " 3 "  min = " -2 "  max = " -2 "  atributos = " 0 " />
+              </ Grupo >
+              < EmptySpace  min = " -2 "  pref = " 18 "  max = " -2 "  atributos = " 0 " />
+          </ Grupo >
+      </ Grupo >
+    </ DimensionLayout >
+  </ Layout >
+  < Subcomponentes >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel1 " >
+      < Propriedades >
+        < Property  name = " font "  type = " java.awt.Font "  editor = " org.netbeans.beaninfo.editors.FontEditor " >
+          < Font  name = " Dialog "  size = " 18 "  style = " 1 " />
+        </ Propriedade >
+        < Property  name = " text "  type = " java.lang.String "  value = " Cadastro do Pet Shop " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel2 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Nome: " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JTextField "  name = " camponome " >
+      < Eventos >
+        < EventHandler  event = " actionPerformed "  listener = " java.awt.event.ActionListener "  parameters = " java.awt.event.ActionEvent "  handler = " camponomeActionPerformed " />
+      </ Eventos >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel3 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Matricula: " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JTextField "  name = " campomatricula " >
+      < Eventos >
+        < EventHandler  event = " actionPerformed "  listener = " java.awt.event.ActionListener "  parameters = " java.awt.event.ActionEvent "  handler = " campomatriculaActionPerformed " />
+      </ Eventos >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel4 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Cor da pelagem: " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JTextField "  name = " campocor " >
+    </ Componente >
+    < Component  class = " javax.swing.JTextField "  name = " campogenero " >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel5 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Genero: " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JTextField "  name = " campoidade " >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel7 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Idade: " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JTextField "  name = " campopeso " >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel8 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Peso: " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel9 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Estilo de rabo: " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JTextField "  name = " camporabo " >
+    </ Componente >
+    < Component  class = " javax.swing.JSlider "  name = " isfocinheira " >
+      < Propriedades >
+        < Nome da propriedade  = " máximo " type = " int " value = " 1 " />  
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel10 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Focinehira: " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel11 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " N & # xc3; O " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel12 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " SIM " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel13 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Castrado: " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel14 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " N & # xc3; O " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JSlider "  name = " iscastrado " >
+      < Propriedades >
+        < Nome da propriedade  = " máximo " type = " int " value = " 1 " />  
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JLabel "  name = " jLabel15 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " SIM " />
+      </ Propriedades >
+    </ Componente >
+    < Component  class = " javax.swing.JButton "  name = " jButton1 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Cadastrar " />
+      </ Propriedades >
+      < Eventos >
+        < EventHandler  event = " actionPerformed "  listener = " java.awt.event.ActionListener "  parameters = " java.awt.event.ActionEvent "  handler = " jButton1ActionPerformed " />
+      </ Eventos >
+    </ Componente >
+    < Component  class = " javax.swing.JButton "  name = " jButton2 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Remover " />
+      </ Propriedades >
+      < Eventos >
+        < EventHandler  event = " actionPerformed "  listener = " java.awt.event.ActionListener "  parameters = " java.awt.event.ActionEvent "  handler = " jButton2ActionPerformed " />
+      </ Eventos >
+    </ Componente >
+    < Component  class = " javax.swing.JButton "  name = " jButton3 " >
+      < Propriedades >
+        < Property  name = " text "  type = " java.lang.String "  value = " Listar " />
+      </ Propriedades >
+      < Eventos >
+        < EventHandler  event = " actionPerformed "  listener = " java.awt.event.ActionListener "  parameters = " java.awt.event.ActionEvent "  handler = " jButton3ActionPerformed " />
+      </ Eventos >
+    </ Componente >
+  </ SubComponentes >
+</ Form >
