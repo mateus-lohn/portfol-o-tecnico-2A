@@ -1,0 +1,60 @@
+<? xml version = " 1.0 " encoding = " UTF-8 " ?>
+<! - Você pode editar este arquivo livremente. Veja os blocos comentados abaixo para ->
+<! - alguns exemplos de como personalizar a construção. ->
+<! - (Se você excluí-lo e reabrir o projeto, ele será recriado.) ->
+<! - Por padrão, apenas os comandos Limpar e Construir usam este script de construção. ->
+<! - Comandos como Executar, Depurar e Teste usam este script de construção apenas se ->
+<! - o recurso Compilar ao Salvar está desativado para o projeto. ->
+<! - Você pode desligar a configuração Compilar ao Salvar (ou Implementar ao Salvar) ->
+<! - na caixa de diálogo Propriedades do projeto do projeto. ->
+< nome do projeto  = " Aula2A " default = " default " basedir = " . " >  
+    < descrição > Constrói, testa e executa o projeto Aula2A. </ descrição >
+    < import  file = " nbproject / build-impl.xml " />
+    <! -
+    Existem vários alvos que estão vazios por padrão e que podem ser 
+    usado para a execução de suas tarefas. Esses alvos são geralmente executados
+    antes e depois de alguns alvos principais. Eles são:
+      -pre-init: chamado antes da inicialização das propriedades do projeto
+      -post-init: chamado após a inicialização das propriedades do projeto
+      -pré-compilar: chamado antes da compilação javac
+      -post-compile: chamado após a compilação javac
+      -pre-compile-single: chamado antes da compilação javac de um único arquivo
+      -post-compile-single: chamado após a compilação javac de um único arquivo
+      -pré-compile-test: chamado antes da compilação javac de testes JUnit
+      -post-compile-test: chamado após a compilação javac de testes JUnit
+      -pre-compile-test-single: chamado antes da compilação javac do teste JUnit único
+      -post-compile-test-single: chamado após a compilação javac de um único teste JUunit
+      -pré-jar: chamado antes da construção do JAR
+      -post-jar: chamado após a construção do JAR
+      -post-clean: chamado após a limpeza de produtos de compilação
+    (Os alvos que começam com '-' não devem ser chamados sozinhos.)
+    Exemplo de inserção de um ofuscador após a compilação pode ser assim:
+        <target name = "- pós-compilação">
+            <ofuscar>
+                <fileset dir = "$ {build.classes.dir}" />
+            </obfuscate>
+        </target>
+    Para a lista de propriedades disponíveis verifique o importado 
+    Arquivo nbproject / build-impl.xml. 
+    Outra maneira de personalizar a construção é sobrescrever os destinos principais existentes.
+    Os alvos de interesse são: 
+      -init-macrodef-javac: define macro para compilação javac
+      -init-macrodef-junit: define macro para execução de junit
+      -init-macrodef-debug: define macro para depuração de classe
+      -init-macrodef-java: define macro para execução de classe
+      -do-jar: edifício JAR
+      executar: execução do projeto 
+      -javadoc-build: geração Javadoc
+      relatório de teste: geração de relatório JUnit
+    Um exemplo de substituição do destino para a execução do projeto poderia ser assim:
+        <target name = "run" depends = "Aula2A-impl.jar">
+            <exec dir = "bin" executable = "launcher.exe">
+                <arg file = "$ {dist.jar}" />
+            </exec>
+        </target>
+    Observe que o alvo substituído depende do alvo do jar e não apenas do 
+    o destino de compilação como o destino de execução regular faz. Novamente, para obter uma lista de
+    propriedades que você pode usar, verifique o destino que você está substituindo no
+    Arquivo nbproject / build-impl.xml. 
+    ->
+</ projeto >
