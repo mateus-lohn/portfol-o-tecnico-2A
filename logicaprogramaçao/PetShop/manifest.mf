@@ -1,0 +1,2 @@
+Versão do manifesto: 1.0
+X-COMMENT: a classe principal será adicionada automaticamente pelo build
